@@ -9,18 +9,18 @@
   @include hover(transform, scale(1.2));
 
   &--phone {
-    background-image: url("/images/icons/Icon-Phone-call.svg");
+    background-image: url("../images/icons/Icon-Phone-call.svg");
   }
 
   &--menu {
-    background-image: url("/images/icons/Icon-Burger-menu.svg");
+    background-image: url("../images/icons/Icon-Burger-menu.svg");
 
     &:hover {
-      background-image: url("/images/icons/Icon-Burger-menu-hover.svg");
+      background-image: url("../images/icons/Icon-Burger-menu-hover.svg");
     }
   }
 
   &--close {
-    background-image: url("/images/icons/Icon-close.svg");
+    background-image: url("../images/icons/Icon-close.svg");
   }
 }
