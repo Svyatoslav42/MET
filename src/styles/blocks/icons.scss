@@ -3,9 +3,7 @@
   transition: transform 0.3s;
 
   @include IconSize;
-
   @include BackGroundImage;
-
   @include hover(transform, scale(1.2));
 
   &--phone {

@@ -1,8 +1,10 @@
 .header {
   background-image: url("../images/photos/header-background-mobile.png");
+
   @include OnTablet {
     background-image: url("../images/photos/header-background-tablet.png");
   }
+
   @include OnDesktop {
     background-image: url("../images/photos/header-background-desktop.png");
   }
