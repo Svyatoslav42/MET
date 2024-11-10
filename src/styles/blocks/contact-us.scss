@@ -1,6 +1,7 @@
 .contact-us {
   &__wrapper {
     @include PageGrid;
+
     row-gap: 48px;
   }
 
@@ -9,10 +10,13 @@
   }
 
   &__info {
+
     grid-column: span 2;
+
     @include OnTablet {
       grid-column: span 3;
     }
+    
     @include OnDesktop {
       grid-column: span 6;
     }

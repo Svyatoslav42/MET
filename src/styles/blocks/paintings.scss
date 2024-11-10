@@ -15,9 +15,11 @@
     position: relative;
 
     &--wide {
+      
       @include OnTablet {
         grid-column: span 4;
       }
+
       @include OnDesktop {
         grid-column: span 8;
       }

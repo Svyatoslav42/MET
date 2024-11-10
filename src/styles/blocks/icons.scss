@@ -8,6 +8,20 @@
 
   &--phone {
     background-image: url("../images/icons/Icon-Phone-call.svg");
+
+    &:hover::after {
+      content: "+1 212-535-7710";
+      position: absolute;
+      top: -120%;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #eee;
+      color: $main-dark;
+      padding: 4px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
   }
 
   &--menu {

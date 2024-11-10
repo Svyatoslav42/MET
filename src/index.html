@@ -292,17 +292,25 @@
 
             <div class="contact-us__wrapper">
               <div class="contact-us__info">
-
                 <div class="info-panel">
                   <h3 class="info-panel__title">The Met Fifth Avenue</h3>
                   <div class="info-panel__content">
                     <div class="info-panel__part">
                       <p class="info-panel__text">Phone</p>
-                      <p class="info-panel__text--bald">+1 212-535-7710</p>
+                      <p class="info-panel__text--bald">
+                        <a href="tel:+12125357710" class="info-panel__link">+1 212-535-7710</a>
+                      </p>
                     </div>
                     <div class="info-panel__part">
                       <p class="info-panel__text">Address</p>
-                      <p class="info-panel__text--bald">1000 Fifth Avenue New York, NY 10028</p>
+                      <p class="info-panel__text--bald">
+                        <a
+                          href="https://goo.gl/maps/1000 Fifth Avenue New York, NY 10028"
+                          class="info-panel__link"
+                          target="_blank">
+                          1000 Fifth Avenue New York, NY 10028
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -312,31 +320,46 @@
                   <div class="info-panel__content">
                     <div class="info-panel__part">
                       <p class="info-panel__text">Phone</p>
-                      <p class="info-panel__text--bald">+1 212-923-3700</p>
+                      <p class="info-panel__text--bald">
+                        <a href="tel:+12129233700" class="info-panel__link">+1 212-923-3700</a>
+                      </p>
                     </div>
                     <div class="info-panel__part">
                       <p class="info-panel__text">Address</p>
-                      <p class="info-panel__text--bald">99 Margaret Corbin Drive Fort Tryon Park New York, NY 10040</p>
+                      <p class="info-panel__text--bald">
+                        <a
+                          href="https://goo.gl/maps/99 Margaret Corbin Drive Fort Tryon Park New York, NY 10040"
+                          class="info-panel__link"
+                          target="_blank">
+                          99 Margaret Corbin Drive Fort Tryon Park New York, NY 10040
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="contact-us__massage-panel">
+              <form class="contact-us__massage-panel" id="contactForm">
                 <input
                   type="text"
                   class="input contact-us__imput"
-                  placeholder="Name">
+                  placeholder="Name"
+                  required>
                 <input
                   type="email"
                   class="input contact-us__imput"
-                  placeholder="Email">
-                <input
-                  type="textarea"
+                  placeholder="Email"
+                  required>
+                <textarea
                   class="input contact-us__imput"
-                  placeholder="Message">
-                <button class="button contact-us__button">Send</button>
-              </div>
+                  placeholder="Message"
+                  required></textarea>
+                <button
+                  type="submit"
+                  class="button contact-us__button">
+                  Send
+                </button>
+              </form>
             </div>
           </section>
         </div>

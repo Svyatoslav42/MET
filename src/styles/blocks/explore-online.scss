@@ -1,6 +1,7 @@
 .explore-online {
   &__wrapper {
     @include PageGrid;
+    
     row-gap: 48px;
   }
 
