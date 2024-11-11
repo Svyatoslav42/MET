@@ -22,6 +22,10 @@ This project is a base layout template that streamlines the process of building 
    ```bash
    git clone https://github.com/Svyatoslav42/MET
 
+2. **Install npm**:
+   ```bash
+   npm i
+
 2. **Start the Development Server**:
    ```bash
    npm start
