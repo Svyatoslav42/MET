@@ -1,15 +1,11 @@
 /* eslint-disable max-len */
 'use strict';
 
-document.querySelector('.icon--menu').addEventListener('click', function(event) {
-  event.preventDefault();
-  document.getElementById('menu').style.display = 'block';
+document.querySelector('.icon--menu').addEventListener('click', function() {
   document.documentElement.style.overflow = 'hidden';
 });
 
-document.querySelector('.icon--close').addEventListener('click', function(event) {
-  event.preventDefault();
-  document.getElementById('menu').style.display = 'none';
+document.querySelector('.icon--close').addEventListener('click', function() {
   document.documentElement.style.overflow = '';
 });
 
